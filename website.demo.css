@@ -1,0 +1,1187 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_box{
+	height: auto;	
+	width: 100%;
+	float: left;
+}
+
+.header1{
+	height: 50px;
+	width: 100%;
+}
+.div1, .div2{
+	height: 100%;
+	width: 50%;
+	float: left;
+	background-color: #8C96A7;
+}
+
+.div1 ul{
+	list-style-type: none;
+	text-align: left;
+}
+
+.div1 ul li{
+	display: inline-block;
+	color: white;
+	font-size: 18px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+
+.div2 ul{
+	list-style-type: none;
+	text-align: right;
+}
+
+.div2 ul li{
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+.header2{
+	height: 100px;
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	background-color: white;
+}
+
+.logo_content1{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.logo_content1 img{
+	margin-top: 15px;
+	margin-left: 50px;
+}
+
+.logo_content2{
+	height: 100px;
+	width: 50%;
+	float: left;
+}
+
+.logo_content2 ul{
+	text-align: right;
+}
+
+.logo_content2 ul li{
+	display: inline-block;
+	color: black;
+	font-size: 25px;
+	margin-right: 50px;
+	margin-top: 35px;
+}
+
+.logo_content2 .home_color a{
+	color: #8C96A7;
+}
+
+.logo_content2 ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.logo_content2 li:hover a{
+	color: #8C96A7;
+}
+
+
+.image_conatiner{
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-image: url('https://thumbs.dreamstime.com/b/confident-female-doctor-office-desk-sitting-smiling-camera-health-care-prevention-concept-56351853.jpg');
+	background-size: 100% 100%;
+}
+
+.image_conatiner{
+
+}
+
+.logo_content1 button{
+	height: 30px;
+	width: 30px;
+	margin-left: 300px;
+	margin-top: 30px;
+	float: right;
+	display: none;
+}
+@media(max-width:650px){
+	.header1{
+		display: none;
+	}
+	.logo_content2{
+		display: none;
+	}
+	.logo_content1{
+		width: 100%;
+		position: sticky;
+		top: 0px;
+	}
+	.logo_content1 button{
+		display: inline-block;
+		margin-left: 50px;
+		float: right;
+	}
+}
+
+.hsla_color{
+	height: 100%;
+	width: 100%;
+	float: left;
+	background-image: linear-gradient(to right, hsla(188, 55%, 53%, 0.9), hsla(188, 55%, 53%, 0.5),hsla(188, 55%, 53%, 0.2));
+}
+.slider_container{
+	width: 50%;
+	margin-top: 100px;
+	float: left;
+	margin-left: 50px;
+}
+
+.slider_container h1{
+	font-size: 80px;
+	color: white;
+}
+
+.slider_container p{
+	font-size: 30px;
+	color: white;
+	margin-top: 10px;
+}
+
+@media(max-width:650px){
+	.slider_container{
+	width: 80%;
+	margin-top: 80px;
+	float: left;
+	margin-left: 50px;
+}
+
+	.slider_container h1{
+	font-size: 60px;
+	color: white;
+}
+	.slider_container p{
+	font-size: 30px;
+	color: white;
+	margin-top: 10px;
+}
+}
+
+
+.what_we_do{
+	height: 430px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.what_we_do h5{
+	font-size: 30px;
+	color: #8C96A7;
+}
+
+.what_we_do h1{
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.what_we_do p{
+	font-size: 20px;
+	color: #8C96A7;
+}
+
+.what_we_do img{
+	margin-top: 50px;
+}
+
+.what_we_do_sections{
+	height: 200px;
+	width: 100%;
+	float: left;
+}
+
+.box1{
+	height: 200px;
+	width: 95%;
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.section_abtus{
+	height: 200px;
+	width: 24%;
+	float: left;
+	margin-left: 12px;
+	margin-top: 30px;
+}
+
+.circle{
+	height: 100px;
+	width:100px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 130px;
+	margin-right: 130px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 0px #beedec;
+}
+
+.circle i{
+	font-size: 50px;
+	margin-top: 20px;
+	margin-left: 25px;
+	color: #8C96A7;
+	float: left;
+}
+
+.section_abtus p{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-top: 120px;
+	text-align: center;
+}
+
+@media (max-width:650px){
+	.what_we_do{
+		width: 90%;
+		margin-left: 20px;
+	}
+	.what_we_do h1{
+	font-size: 45px;
+	margin-top: 20px;
+}
+	.what_we_do img{
+	height: 100px;
+}
+	.box1 .section_abtus{
+		width: 100%;
+		float: left;
+	}
+
+	.box1 .section_abtus p{
+		margin-left: -100px;
+	}
+	.box1{
+		float: left;
+	}
+}
+
+.about_us{
+	height: 750px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.about_us h5{
+	font-size: 30px;
+	color: #8C96A7;
+	margin-top: 100px;
+}
+
+.about_us h1{
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.about_us p{
+	font-size: 20px;
+	color: #8C96A7;
+	margin-top: 20px;
+}
+
+.about_us button{
+	height: 60px;
+	width: 150px;
+	margin-top: 30px;
+	background-color: #8C96A7;
+	border: 0px #8C96A7 solid;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.about_us img{
+	height: 390px;
+}
+
+@media (max-width:650px){
+	.about_us{
+		float: left;
+		margin-top: 650px;
+		width: 95%;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.about_us img{
+		height: 110px;
+	}
+}
+
+.service{
+	height: 300px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.service h5{
+	font-size: 30px;
+	color: #8C96A7;
+	margin-top: 100px;
+}
+
+.service h1{
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.service p{
+	font-size: 25px;
+	color: #8C96A7;
+	margin-top: 20px;
+}
+
+@media(max-width:650px){
+	.service{
+		height: 330px;
+	}
+	.service h5{
+		margin-top: 0px;
+	}
+}
+
+.service_sec_2{
+	height: 750px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+}
+
+.service_sec_block{
+	height: 320px;
+	width: 30%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	border: 5px white solid;
+	border-radius: 30px;
+	box-shadow: 0px 0px 20px 0px #beedec;
+}
+
+.service_sec_block i{
+	font-size: 60px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.service_sec_block h1{
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.service_sec_block p{
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 20px;
+	color: #8C96A7;
+}
+
+.service_sec_block a{
+	text-decoration: none;
+	color: #8C96A7;
+	font-size: 22px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+@media(max-width:650px){
+	.service_sec_block{
+		width: 90%;
+	}
+
+	.service_sec_2{
+		height: 2150px;
+	}
+}
+
+.testimonial{
+	height: 700px;
+	width: 100%;
+	float: left;
+	text-align: center;	
+}
+
+.testimonial h5{
+	font-size: 30px;
+	color: #8C96A7;
+	margin-top: 100px;
+}
+
+.testimonial h1{
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.testimonial p{
+	margin-top: 70px;
+	margin-left: 30px;
+	font-size: 25px;
+}
+
+.testimonial h3{
+	font-size: 20px;
+	margin-top: 30px;
+	color: #8C96A7;
+}
+
+.testimonial h6{
+	font-size: 20px;
+	font-weight: normal;
+	color: #8C96A7;
+}
+
+.testimonial .profile_pics{
+	height: 80px;
+	width: 35%;
+	margin-left: 33%;
+	float: left;
+}
+
+.testimonial .profile_pics img{
+	height: 80px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 25px;
+}
+
+@media(max-width:650px){
+	.testimonial .profile_pics{
+		height: 80px;
+		width: 100%;
+		margin-left: 0px;
+	}
+	.testimonial .profile_pics img{
+		height: 60px;
+		margin-top: 50px;
+		margin-left: 35px;
+	}
+	.testimonial{
+		height: 730px;
+	}
+}
+
+.faq_sec{
+	height: 770px;
+	width: 100%;
+	background-color: #46b8c9;
+	float: left;
+}
+
+.faq_sec .img_part{
+	height: 700px;
+	width: 50%;
+	float: left;
+	background-image: url('https://preview.uideck.com/items/medic/assets/img/faq/faq-img.jpg');
+	background-size: 100% 100%;
+	margin-top: 60px;
+}
+
+.faq_sec .faq_part{
+	height: 700px;
+	width: 50%;
+	float: left;
+}
+
+.faq_part h2{
+	color: white;
+	font-size: 30px;
+	margin-top: 80px;
+	margin-left: 40px;
+	float: left;
+}
+
+.faq_part h1{
+	color: white;
+	font-size: 50px;
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+}
+
+.faq_part div{
+	height: 50px;
+	width: 85%;
+	float: left;
+	background-color: rgba(50, 159, 186, 1.0);
+	color: white;
+	margin-top: 20px;
+	margin-left: 40px;
+	border-radius: 10px;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+@media (max-width:650px){
+	.faq_sec{
+	height: 1500px;
+	width: 100%;
+	background-color: #46b8c9;
+	float: left;
+}
+
+	.faq_sec .img_part{
+		width: 100%;
+		float: left;
+	}
+
+	.faq_sec .faq_part{
+		width: 100%;
+		float: left;
+	}
+}
+
+.team{
+	height: 850px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.team h5{
+	font-size: 30px;
+	color: #8C96A7;
+	margin-top: 100px;
+}
+
+.team h1{
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.team p{
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 25px;
+	color: #8C96A7;
+}
+
+.team .divs{
+	height: 500px;
+	width: 90%;
+	float: left;
+	margin-top: 60px;
+	margin-left: 5%;
+}
+
+.team .divs div{
+	height: 420px;
+	width: 22%;
+	margin-left: 30px;
+	float: left;
+	margin-top: 30px;
+	border-radius: 20px;
+	border: 1px solid #8C96A7;
+	text-align: center;
+}
+
+.team .divs div img{
+	margin-left: 30px;
+	margin-top: 20px;
+	float: left;
+}
+
+.team .divs div h2{
+	margin-top: 320px;
+	text-align: center;
+}
+
+.team .divs div p{
+	text-align: center;
+	color: #8C96A7;
+	margin-top: 10px;
+	font-size: 20px;
+	margin-left: -10px;
+}
+
+@media (max-width:650px){
+	.team{
+		height:2300px;
+		width: 100%;
+		float: left;
+		text-align: center;
+}
+	.team .divs div{
+		width: 90%;
+		float: left;
+	}
+
+	.team .divs div img{
+		margin-left: 80px;
+		margin-top: 20px;
+		float: left;
+}
+
+	.team .divs div h2{
+		margin-top: 320px;
+		text-align: center;
+}
+}
+
+.subscribe_sec{
+	height: 650px;
+	width: 100%;
+	float: left;
+	background-image: url('https://thumbs.dreamstime.com/b/confident-female-doctor-office-desk-sitting-smiling-camera-health-care-prevention-concept-56351853.jpg');
+	background-size: 100% 100%;
+}
+
+.subscribe_sec .sub_div{
+	height: 100%;
+	width: 60%;
+	float: left;
+}
+
+.sub_div h1{
+	font-size: 50px;
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+.sub_div p{
+	font-size: 22px;
+	margin-top: 15px;
+	margin-left: 50px;
+	color: #8C96A7;
+}
+
+.sub_div input{
+	height: 50px;
+	width: 70%;
+	margin-left: 50px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 0px solid #8C96A7;
+}
+
+.sub_div button{
+	height: 50px;
+	width: 150px;
+	margin-left: 15px;
+	margin-top: 30px;
+	border-radius: 10px;
+	background-color: #8C96A7;
+	border: 0px solid #8C96A7;
+	color: white;
+	font-size: 18px;
+}
+
+.sub_div h2{
+	font-size: 50px;
+	margin-left: 50px;
+	margin-top: 40px;
+	color: #8C96A7;
+}
+
+.sub_div h3{
+	font-size: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+
+.sub_div ul li i{
+	height: 40px;
+	width: 50px;
+	border: 1px solid #8C96A7;
+	font-size: 29px;
+	text-align: center;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding-top: 10px;
+	background-color: #8C96A7;
+	color: white;
+}
+
+.sub_div ul li{
+	display: inline-block;
+	font-size: 30px;
+	margin-left: 10px;
+	color: #8C96A7;
+	font-weight: bold;
+}
+
+@media(max-width:650px){
+	.subscribe_sec .sub_div{
+		height: 100%;
+		width: 100%;
+		float: left;
+	}
+	.subscribe_sec .sub_div h1{
+		font-size: 40px;
+		margin-top: 20px;
+	}
+
+	.sub_div p{
+		font-size: 18px;
+		margin-top: 10px;
+		margin-left: 50px;
+		color: #8C96A7;
+	}
+
+	.sub_div input{
+		height: 50px;
+		width: 50%;
+		margin-left: 50px;
+		margin-top: 10px;
+		border-radius: 10px;
+		border: 0px solid #8C96A7;
+	}
+
+	.sub_div h2{
+		font-size: 40px;
+		margin-left: 50px;
+		margin-top: 30px;
+		color: #8C96A7;
+	}
+
+	.sub_div h3{
+		font-size: 50px;
+		margin-top: 10px;
+		margin-left: 50px;
+
+	}
+
+	.sub_div ul li i{
+		height: 40px;
+		width: 50px;
+		border: 1px solid #8C96A7;
+		font-size: 29px;
+		text-align: center;
+		border-radius: 50%;
+		margin-top: 30px;
+		margin-left: 40px;
+		padding-top: 10px;
+		background-color: #8C96A7;
+		color: white;
+	}
+
+	.sub_div ul li{
+		display: inline-block;
+		font-size: 30px;
+		margin-left: 10px;
+		color: #8C96A7;
+		font-weight: bold;
+	}	
+}
+
+.Blog_post{
+	height: 800px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.Blog_post h5{
+	font-size: 25px;
+	color: #8C96A7;
+	margin-top: 80px;
+}
+
+.Blog_post h1{
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.Blog_post p{
+	font-size: 22px;
+	color: #8C96A7;
+	margin-top: 10px;
+}
+
+.blog_inner{
+	height: 500px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10px;
+	float: left;
+}
+
+.Blog_post .blog_inner div{
+	height: 100%;
+	width: 30%;
+	float: left;
+	margin-left: 30px;
+	border-radius: 20px;
+}
+
+.blog_inner div img{
+	height: 250px;
+	width: 100%;
+	float: left;
+}
+
+.blog_inner div h1{
+	font-size: 28px;
+	text-align: left;
+	margin-top: 280px;
+}
+
+.blog_inner div p{
+	font-size: 20px;
+	text-align: left;
+}
+
+.blog_inner div button{
+	height: 30px;
+	width: 80px;
+	border: 0px;
+	float: left;
+	margin-top: 20px;
+	color: #8C96A7;
+	background-color: white;
+	font-size: 15px;
+}
+
+@media (max-width:650px){
+	.Blog_post{
+		height: 1800px;
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+
+	.Blog_post .blog_inner div{
+		height: 100%;
+		width: 90%;
+		float: left;
+		margin-left: 30px;
+		border-radius: 20px;
+	}
+}
+
+
+.appointment{
+	height: 800px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.appointment h2{
+	font-size: 30px;
+	color: #8C96A7;
+	margin-top: 30px;
+}
+
+.appointment h1{
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.appointment p{
+	font-size: 20px;
+	margin-top: 15px;
+	color: #8C96A7;
+}
+
+.appointment .inp{
+	height: 50px;
+	width: 40%;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid #8C96A7;
+}
+
+.appointment .inp2{
+	height: 50px;
+	width: 40%;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid #8C96A7;
+}
+
+.appointment input{
+	width: 82%;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid #8C96A7;
+}
+
+.appointment textarea{
+	width: 82%;
+	height: 150px;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid #8C96A7;
+}
+
+.appointment button{
+	height: 60px;
+	width: 180px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 150px;
+	border-radius: 10px;
+	border: 1px solid #8C96A7;
+	background-color: #8C96A7;
+	color: white;
+	font-size: 20px;
+
+}
+
+@media (max-width:650px){
+	.appointment{
+		height: 950px;
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+
+	.appointment .inp{
+		height: 50px;
+		width: 90%;
+		margin-top: 30px;
+		margin-left: 20px;
+		font-size: 18px;
+		border-radius: 10px;
+		border: 1px solid #8C96A7;
+	}
+
+	.appointment .inp2{
+		height: 50px;
+		width: 90%;
+		margin-top: 30px;
+		margin-left: 20px;
+		font-size: 18px;
+		border-radius: 10px;
+		border: 1px solid #8C96A7;
+	}
+
+	.appointment textarea{
+		width: 90%;
+		height: 150px;
+		margin-top: 30px;
+		margin-left: 20px;
+		font-size: 18px;
+		border-radius: 10px;
+		border: 1px solid #8C96A7;
+	}
+
+	.appointment button{
+		height: 60px;
+		width: 180px;
+		float: left;
+		margin-top: 40px;
+		margin-left: 40px;
+		border-radius: 10px;
+		border: 1px solid #8C96A7;
+		background-color: #8C96A7;
+		color: white;
+		font-size: 20px;
+	}
+
+	.appointment input{
+		width: 90%;
+		height: 50px;
+		margin-top: 30px;
+		margin-left: 20px;
+		font-size: 18px;
+		border-radius: 10px;
+		border: 1px solid #8C96A7;
+}
+}
+
+.footer{
+	height: 550px;
+	width: 100%;
+	float: left;
+	background-color: #263233;
+}
+
+.footer .footer_inner1{
+	height: 450px;
+	width: 30%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.footer_inner1 img{
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
+.footer_inner1 p{
+	font-size: 20px;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	color: white;
+}
+
+.footer_inner1 ul li{
+	display: inline-block;
+	border:1px solid #8C96A7;
+	height: 40px;
+	width: 50px;
+	margin-top: 40px;
+	margin-left: 20px;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 25px;
+	background-color: #8C96A7;
+	color: white;
+}
+
+.footer .footer_inner2{
+	height: 450px;
+	width: 15%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.footer_inner2 h1{
+	font-size: 28px;
+	margin-top: 120px;
+	margin-left: 20px;
+	color: white;
+}
+
+.footer_inner2 ul li{
+	list-style-type: none;
+	margin-top: 15px;
+	font-size: 20px;
+	margin-left: 20px;
+	color: white;
+}
+
+.footer .footer_inner3{
+	height: 450px;
+	width: 15%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.footer_inner3 h1{
+	font-size: 28px;
+	margin-top: 120px;
+	margin-left: 20px;
+	color: white;
+}
+
+.footer_inner3 ul li{
+	list-style-type: none;
+	margin-top: 15px;
+	font-size: 20px;
+	margin-left: 20px;
+	color: white;
+}
+
+
+.footer .loc_div{
+	height: 420px;
+	width: 27%;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+.footer .loc_div iframe{
+	height: 230px;
+	width: 90%;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.footer .loc_div h1{
+	font-size: 28px;
+	margin-top: 120px;
+	margin-left: 0px;
+	color: white;
+}
+
+.footer hr{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.footer .footerh1{
+	color: #8C96A7;
+	font-size: 20px;
+	text-align: center;
+}
+
+@media (max-width:650px){
+	.footer{
+		height: 1550px;
+		width: 100%;
+		float: left;
+		background-color: #263233;
+	}
+
+	.footer .footer_inner1{
+		height: 450px;
+		width: 90%;
+		float: left;
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	.footer .footer_inner2{
+		height: 450px;
+		width: 90%;
+		float: left;
+		margin-top: -110px;
+		margin-left: 30px;
+	}
+
+	.footer .footer_inner3{
+		height: 450px;
+		width: 90%;
+		float: left;
+		margin-top: -110px;
+		margin-left: 30px;
+	}
+
+	.footer .loc_div{
+		height: 450px;
+		width: 90%;
+		margin-left: 30px;
+		margin-top: -110px;
+		float: left;
+}
+}
